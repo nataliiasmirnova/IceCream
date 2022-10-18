@@ -1,0 +1,23 @@
+.link__arrow {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.link__arrow::after {
+    content: "";
+    background-image: url(../../../images/arrows/arrow-right.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 11px;
+    width: 10px;
+}

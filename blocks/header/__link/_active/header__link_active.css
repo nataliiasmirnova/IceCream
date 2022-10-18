@@ -1,0 +1,7 @@
+.header__link_active {
+    color: var(--color-text-active);
+}
+
+.header__link_active:hover {
+    color: var(--color-btn-active-hover);
+}

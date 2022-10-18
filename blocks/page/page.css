@@ -1,0 +1,24 @@
+:root {
+    --color-text-primary: #FFFFFF;
+    --color-text-active: #D41443;
+    --color-text-paragraph-accent: #000000;
+    --color-text-paragraph-plane: #907E82;
+    --color-heading-primary: #D41443;
+    --color-heading-secondary: #FFA5BA;
+    --color-bg-main: #FFFFFF;
+    --color-bg-rose: #FFB8CA;
+    --color-bg-light-rose: #FFF5F6;
+    --color-btn-main: #FFFFFF;
+    --color-btn-hover: #ECEBEB;
+    --color-btn-active: #D41443;
+    --color-btn-active-hover: #C7133E;
+    --color-add-green: #C2E297;
+    --color-add-brown: #F0D1A5;
+}
+
+.page {
+    font-family: DM Sans, sans-serif;
+    margin: 0 auto;
+    background-color: var(--color-bg-main);
+    color: var(--color-text-primary);
+}

@@ -1,0 +1,18 @@
+.hero__title_white {
+    font-size: 37px;
+    line-height: 1.16em;
+    color: var(--color-text-primary);
+    text-align: left;
+    max-width: 277px;
+    margin: 84px 0 25px 115px;
+}
+
+
+/* @media screen and (max-width: 767px) { 
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 0 16px;
+        max-width: 288px;
+    }
+}*/

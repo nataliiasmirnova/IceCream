@@ -1,0 +1,11 @@
+.hero__button_active {
+    color: var(--color-text-primary);
+    background: var(--color-btn-active);
+    min-width: 104px;
+    margin-right: 15px;
+}
+
+.hero__button_active:hover {
+    background: var(--color-btn-active-hover);
+    color: var(--color-text-primary);
+}

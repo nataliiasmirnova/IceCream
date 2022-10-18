@@ -1,0 +1,20 @@
+.hero__button-active {
+    /* display: block; */
+    background-color: var(--color-btn-active);
+    /* width: 138px; 
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28em;
+    padding: 0;*/
+}
+
+.hero__button-active:hover {
+    background-color: var(--color-btn-hover);
+}

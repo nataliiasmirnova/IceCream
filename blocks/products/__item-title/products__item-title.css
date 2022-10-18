@@ -1,0 +1,25 @@
+.products__item-title {
+    font-family: 'Titan One';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.13em;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 70px;
+    /* color: var(--color-text-primary); */
+}
+
+.products__item-title::after {
+    content: '';
+    background-image: url(../../../images/products/products-devider.svg);
+    width: 26px;
+    height: 6px;
+    position: absolute;
+    top: 229px;
+    left: 151px;
+    /* position: absolute; */
+    /* bottom: 16px; */
+    /* right: 37px; */
+}

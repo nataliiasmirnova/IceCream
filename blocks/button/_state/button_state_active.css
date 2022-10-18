@@ -1,0 +1,8 @@
+.button_state_active {
+    background-color: var(--color-btn-active);
+    color: var(--color-text-primary);
+}
+
+.button_state_active:hover {
+    background-color: var(--color-btn-active-hover);
+}

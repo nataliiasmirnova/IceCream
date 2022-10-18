@@ -1,0 +1,18 @@
+.link__arrow_hero {
+    position: relative;
+    min-width: 26px;
+    min-height: 26px;
+}
+
+.link__arrow_hero::after {
+    content: "";
+    background-image: url(../../../../images/arrows/arrow-right.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 7px;
+    width: 7px;
+    /* z-index: -10; */
+}

@@ -1,0 +1,15 @@
+.footer__copyright {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.86em;
+    letter-spacing: 0.02em;
+    color: var(--color-text-paragraph-plane);
+    margin: 0;
+}
+
+
+/*@media screen and (max-width: 767px) {
+    .footer__copyright {
+        line-height: 14px;
+    }
+}*/

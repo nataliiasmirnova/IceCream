@@ -1,0 +1,4 @@
+.hero__column-right {
+    display: flex;
+    flex-direction: column;
+}

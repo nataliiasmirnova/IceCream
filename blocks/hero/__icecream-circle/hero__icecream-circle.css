@@ -1,0 +1,14 @@
+.hero__icecream-circle {
+    width: 538px;
+    height: 538px;
+    background: var(--color-heading-secondary);
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: -20px;
+}
