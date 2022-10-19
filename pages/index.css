@@ -21,6 +21,13 @@
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
 
+/* counter */
+
+@import url(../blocks/counter/counter.css);
+@import url(../blocks/counter/__item/counter__item.css);
+@import url(../blocks/counter/__item/_even/counter__item_even.css);
+@import url(../blocks/counter/__item-txt/counter__item-txt.css);
+
 /* header */
 
 @import url(../blocks/header/header.css);
@@ -32,6 +39,9 @@
 @import url(../blocks/header/__link/_active/header__link_active.css);
 
 /* hero */
+
+
+/* hero__column-right */
 
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__column-right/hero__column-right.css);
@@ -50,9 +60,16 @@
 
 /* hero__icecream */
 
-@import url(../blocks/hero/__icecream/hero__icecream.css);
+
+/* @import url(../blocks/hero/__icecream/hero__icecream.css); */
+
 @import url(../blocks/hero/__icecream-circle/hero__icecream-circle.css);
 @import url(../blocks/hero/__icecream-pic/hero__icecream-pic.css);
+
+/* hero__column-left */
+
+@import url(../blocks/hero/__column-left/hero__column-left.css);
+@import url(../blocks/hero/__girl-pic/hero__girl-pic.css);
 
 /* products */
 

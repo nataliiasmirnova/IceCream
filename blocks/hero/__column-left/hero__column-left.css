@@ -1,5 +1,5 @@
-.hero__icecream {
+.hero__column-left {
     /* border: 1px solid red; */
-    width: 538px;
     position: relative;
+    margin-left: 616px;
 }

@@ -1,0 +1,10 @@
+.counter__item-txt {
+    font-family: 'DM Sans';
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: normal;
+    text-transform: none;
+    color: var(--color-text-primary);
+    margin: 0;
+    text-align: right;
+}

@@ -16,18 +16,18 @@
         <!-- Header -->
         <header class="header">
             <nav class="header__menu">
-                <a class="link header__logo" href=""></a>
+                <a class="link header__logo" href="" target="_blank" rel="noopener noreferrer"></a>
                 <ul class="header__links">
                     <li class="header__link">
-                        <a href="#" class="link header__link header__link_active">Home</a></li>
+                        <a class="link header__link header__link_active" href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
                     <li class="header__link">
-                        <a href="#" class="link header__link">About us</a></li>
+                        <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">About us</a></li>
                     <li class="header__link">
-                        <a href="#" class="link header__link">How it’s made?</a></li>
+                        <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">How it’s made?</a></li>
                     <li class="header__link">
-                        <a href="#" class="link header__link">Our products</a></li>
+                        <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Our products</a></li>
                     <li class="header__link">
-                        <a href="#" class="link header__link">Contact</a></li>
+                        <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Contact</a></li>
                 </ul>
             </nav>
             <button class="button header__button" type="button">Buy now</button>
@@ -40,26 +40,35 @@
                     <!-- высота  высота заголовка в макете 137, в верстке - 144; font-size title-white = 37px-->
                     <h1 class="section-title hero__title_white">ice cream made with<span class="section-title hero__title"> passion</span></h1>
                     <div class="hero__buttons">
-                        <a class="link hero__button hero__button_active" href="">Products</a>
-                        <a class="link hero__button" href="">How it’s made?</a>
+                        <a class="link hero__button hero__button_active" href="" target="_blank" rel="noopener noreferrer">Products</a>
+                        <a class="link hero__button" href="" target="_blank" rel="noopener noreferrer">How it’s made?</a>
                     </div>
                     <div class="hero__milk">
                         <img class="hero__milk-pic" src="./images/hero/hero-milk.png" alt="a splashing jug of milk on the background of the inscription 'eco' 'bio'" width="188">
                         <div class="hero__milk-description">
-                            <p class="hero__milk-txt">Lorem ipsum dolor sit amet, consectetur adipiscing e lit, sed do eiusmod tempor incididunt ut labore et</p>
-                            <a class="link button link__arrow link__arrow_hero" href=""></a>
+                            <p class="hero__milk-txt" lang="zxx">Lorem ipsum dolor sit amet, consectetur adipiscing e lit, sed do eiusmod tempor incididunt ut labore et</p>
+                            <a class="link button link__arrow link__arrow_hero" href="" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </div>
                 </div>
-                <div class="hero__icecream">
-                    <div class="hero__icecream-circle"></div>
-                    <img class="hero__icecream-pic" src="./images/hero/hero-ice-cream.png" alt="large cone with six colored ice cream scoops" width="236">
+                <div class="hero__icecream-circle"></div>
+                <img class="hero__icecream-pic" src="./images/hero/hero-ice-cream.png" alt="large cone with six colored ice cream scoops" width="236">
+                <div class="hero__column-left">
+                    <ul class="counter">
+                        <li class="counter__item">16
+                            <p class="counter__item-txt">cafes</p>
+                        </li>
+                        <li class="counter__item counter__item_even">23
+                            <p class="counter__item-txt">food trucks</p>
+                        </li>
+                    </ul>
+                    <!-- Сделать фоном, а не семаническим тегом? Остальные иллюсрации? -->
+                    <img class="hero__girl-pic" src="./images/hero/hero-girl.png" alt="a girl in a swimsuit tries ice cream in a cone; the inscription in the bubble: 'So taty!'" width="293">
                 </div>
             </section>
             <section class="products">
                 <p class="section-subtitle products__subtitle">100% natural</p>
                 <h2 class="section-title products__title">products</h2>
-
                 <ul class="products__list">
                     <li class="products__list-item">
                         <!-- обернуть ссылкой все элементы li??? -->
@@ -68,11 +77,11 @@
                         <img class="products__item-pic" src="./images/products/products-fruit-ice-cream.png" alt="Ice cream cone with berries" width="335" />
                         <div class="products__item-description">
                             <h3 class="products__item-title">ice cream</h3>
-                            <p class="products__item-text">
+                            <p class="products__item-text" lang="zxx">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
                             <!-- нужна ли кнопка? или использховать div (с учетом того, что ссылка на весь блок сразу) -->
-                            <a class="link button link__arrow" href=""></a>
+                            <a class="link button link__arrow" href="" target="_blank" rel="noopener noreferrer"></a>
                         </div>
 
                     </li>
@@ -82,7 +91,7 @@
                         <img class="products__item-pic" src="./images/products/products-ice-coffee.png" alt="Ice coffee in a glass with a straw" width="335" />
                         <div class="products__item-description products__item-description_color_brown">
                             <h3 class="products__item-title">ice coffee</h3>
-                            <p class="products__item-text">
+                            <p class="products__item-text" lang=”zxx”>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
                             <a class="link button link__arrow" href=""></a>
@@ -95,17 +104,17 @@
                         <img class="products__item-pic" src="./images/products/products-milkshakes.png" alt="Chocolate milkshake garnished with biscuits and marshmallows" width="335" />
                         <div class="products__item-description products__item-description_color_green">
                             <h3 class="products__item-title">milkshakes</h3>
-                            <p class="products__item-text">
+                            <p class="products__item-text" lang="zxx">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
-                            <a class="link button link__arrow" href=""></a>
+                            <a class="link button link__arrow" href="" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </li>
                 </ul>
 
             </section>
         </main>
-        <!-- <footer class="footer"> 
+        <!-- <footer class="footer">
             <p class="footer__copyright">&copy; 2019 - IceCream. All Rights Reserved.</p>
         </footer>-->
     </div>

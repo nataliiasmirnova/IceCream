@@ -1,9 +1,6 @@
 .hero__icecream-pic {
-    padding: 0;
     position: absolute;
-    left: 99px;
+    left: 594px;
     bottom: 0;
-    background-position: center;
-    background-size: cover;
     z-index: 1;
 }

@@ -1,0 +1,29 @@
+.counter__item {
+    position: relative;
+    font-family: 'Titan One';
+    font-size: 46px;
+    line-height: 1.15em;
+    /* text-align: right; */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-heading-primary);
+    padding-left: 20px;
+    margin-bottom: 15px;
+    z-index: 2;
+}
+
+.counter__item::after {
+    content: "";
+    background-image: url(../../../images/counter/counter-circle.svg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -4px;
+    right: -18px;
+    /* left: -5px; */
+    /* bottom: 16px; */
+    /* right: 37px; */
+    height: 30px;
+    width: 30px;
+    z-index: -1;
+}

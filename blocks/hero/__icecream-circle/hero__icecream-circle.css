@@ -9,6 +9,6 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     position: absolute;
-    top: -35px;
-    left: -20px;
+    bottom: 75px;
+    left: 475px;
 }
