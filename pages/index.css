@@ -27,6 +27,7 @@
 @import url(../blocks/counter/__item/counter__item.css);
 @import url(../blocks/counter/__item/_even/counter__item_even.css);
 @import url(../blocks/counter/__item-txt/counter__item-txt.css);
+@import url(../blocks/counter/__item-txt/counter__item-txt_even.css);
 
 /* header */
 
@@ -59,9 +60,6 @@
 @import url(../blocks/hero/__milk-txt/hero__milk-txt.css);
 
 /* hero__icecream */
-
-
-/* @import url(../blocks/hero/__icecream/hero__icecream.css); */
 
 @import url(../blocks/hero/__icecream-circle/hero__icecream-circle.css);
 @import url(../blocks/hero/__icecream-pic/hero__icecream-pic.css);

@@ -1,4 +1,6 @@
 .counter__item_even {
-    text-align: left;
+    min-width: 92px;
+    text-align: center;
     padding: 0;
+    left: 0;
 }
