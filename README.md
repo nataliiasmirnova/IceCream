@@ -1,6 +1,6 @@
 # Study project: Icecream
 ### Description
- [Project](https://nataliiasmirnova.github.io/russian-travel/) is a landing page for a company producing natural ice cream. The page is fully adaptive. It was used such technologies as flex and grid. BEM methodology also was used in the work.
+ [Project](https://nataliiasmirnova.github.io/IceCream/) is a landing page for a company producing natural ice cream. The page is fully adaptive. It was used such technologies as flex and grid. BEM methodology also was used in the work.
 The project consists of the following blocks:
 * header
 * hero
