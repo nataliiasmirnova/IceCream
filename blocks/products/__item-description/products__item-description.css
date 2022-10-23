@@ -3,8 +3,10 @@
     background-color: var(--color-bg-rose);
     text-align: center;
     padding: 163px 44px 50px;
-    position: absolute;
-    top: 210px;
+    margin-top: -125px;
+    position: relative;
+    /* position: absolute; */
+    /* top: 210px; */
     z-index: -1;
     border: none;
     border-radius: 24px;

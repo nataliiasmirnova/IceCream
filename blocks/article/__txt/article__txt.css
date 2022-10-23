@@ -1,0 +1,9 @@
+.article__txt {
+    color: var(--color-text-paragraph-plane);
+    max-width: 463px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.93em;
+    letter-spacing: 0.04em;
+    margin: 35px 0 45px 74px;
+}

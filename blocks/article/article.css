@@ -1,0 +1,9 @@
+.article {
+    background-image: url(../../images/making/making-bg-pic.png);
+    min-height: 534px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: row;
+}

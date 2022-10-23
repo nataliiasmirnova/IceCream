@@ -35,7 +35,7 @@
 
         <main>
             <!-- Hero -->
-            <section class="hero">
+            <section class="hero" aria-label="presentation of ice cream produced from bio milk">
                 <div class="hero__column-right">
                     <!-- высота  высота заголовка в макете 137, в верстке - 144; font-size title-white = 37px-->
                     <h1 class="section-title hero__title_white">ice cream made with<span class="section-title hero__title"> passion</span></h1>
@@ -66,15 +66,16 @@
                     <img class="hero__girl-pic" src="./images/hero/hero-girl.png" alt="a girl in a swimsuit tries ice cream in a cone; the inscription in the bubble: 'So taty!'" width="293">
                 </div>
             </section>
-            <section class="products">
+
+            <!-- Products -->
+            <section class="products" aria-label="The company's product line">
                 <p class="section-subtitle products__subtitle">100% natural</p>
                 <h2 class="section-title products__title">products</h2>
                 <ul class="products__list">
                     <li class="products__list-item">
                         <!-- обернуть ссылкой все элементы li??? -->
                         <!-- нужна ли ширина картинке, если будет адаптив? -->
-                        <!-- нет содержимого у класса products__item-pic -->
-                        <img class="products__item-pic" src="./images/products/products-fruit-ice-cream.png" alt="Ice cream cone with berries" width="335" />
+                        <img class="products__item-pic" src="./images/products/products-fruit-ice-cream.png" alt="Ice cream cone with berries" width="335">
                         <div class="products__item-description">
                             <h3 class="products__item-title">ice cream</h3>
                             <p class="products__item-text" lang="zxx">
@@ -87,11 +88,10 @@
                     </li>
 
                     <li class="products__list-item">
-                        <!-- нужна ли ширина картинке, если будет адаптив? -->
-                        <img class="products__item-pic" src="./images/products/products-ice-coffee.png" alt="Ice coffee in a glass with a straw" width="335" />
+                        <img class="products__item-pic" src="./images/products/products-ice-coffee.png" alt="Ice coffee in a glass with a straw" width="335">
                         <div class="products__item-description products__item-description_color_brown">
                             <h3 class="products__item-title">ice coffee</h3>
-                            <p class="products__item-text" lang=”zxx”>
+                            <p class="products__item-text" lang="zxx">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
                             <a class="link button link__arrow" href=""></a>
@@ -99,9 +99,7 @@
                     </li>
 
                     <li class="products__list-item">
-
-                        <!-- нужна ли ширина картинке, если будет адаптив? -->
-                        <img class="products__item-pic" src="./images/products/products-milkshakes.png" alt="Chocolate milkshake garnished with biscuits and marshmallows" width="335" />
+                        <img class="products__item-pic" src="./images/products/products-milkshakes.png" alt="Chocolate milkshake garnished with biscuits and marshmallows" width="335">
                         <div class="products__item-description products__item-description_color_green">
                             <h3 class="products__item-title">milkshakes</h3>
                             <p class="products__item-text" lang="zxx">
@@ -111,8 +109,26 @@
                         </div>
                     </li>
                 </ul>
-
             </section>
+
+            <!-- Making -->
+            <!-- <section class="making" aria-label="Description the process of turning bio milk into ice cream">
+                <p class="section-subtitle making__subtitle">tradition and love</p>
+                <h2 class="section-title">how it’s made?</h2>
+                <article class="article">
+                    <h3 hidden>Bio-milk ice cream production</h3>
+                    <img class="article__pic" src="./images/making/making-main-pic.png" alt="a splashing jug of milk on the background of the inscription 'eco' 'bio' and cow face in the background" width="516">
+                    <div class="article__body">
+                        <p class="article__txt article__txt_annotation">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+                        <p class="article__txt">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+                        </p>
+                        <p class="article__txt">Aliquam erat volutpat. Aenean accumsan.
+                        </p>
+                        <a class="link" href="" target="_blank" rel="noopener noreferrer">Read more</a>
+                    </div>
+                </article>
+
+            </section>-->
         </main>
         <!-- <footer class="footer">
             <p class="footer__copyright">&copy; 2019 - IceCream. All Rights Reserved.</p>

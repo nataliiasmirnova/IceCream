@@ -8,7 +8,6 @@
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 70px;
-    /* color: var(--color-text-primary); */
 }
 
 .products__item-title::after {
@@ -16,10 +15,8 @@
     background-image: url(../../../images/products/products-devider.svg);
     width: 26px;
     height: 6px;
+    z-index: -1;
     position: absolute;
     top: 229px;
     left: 151px;
-    /* position: absolute; */
-    /* bottom: 16px; */
-    /* right: 37px; */
 }
