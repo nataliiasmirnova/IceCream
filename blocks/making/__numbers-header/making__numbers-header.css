@@ -1,0 +1,10 @@
+.making__numbers-header {
+    font-family: 'Titan One';
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 1.14em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-heading-primary);
+    margin: 40px 0 15px;
+}

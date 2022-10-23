@@ -1,0 +1,22 @@
+.article__button {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 176px;
+    min-height: 44px;
+    align-items: center;
+    padding-left: 37px;
+}
+
+.article__button::after {
+    position: absolute;
+    height: 8px;
+    width: 4.5px;
+    top: 19px;
+    right: 38px;
+}
+
+.article__button:hover {
+    background-color: var(--color-btn-hover);
+    color: var(--color-text-active);
+}

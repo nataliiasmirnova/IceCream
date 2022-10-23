@@ -17,12 +17,3 @@
 .header__link:hover {
     color: var(--color-btn-active-hover);
 }
-
-
-/*.header__lang-link:last-child {
-    margin-right: 0;
-}
-
-.header__lang-link:hover {
-    opacity: .8;
-}*/

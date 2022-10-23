@@ -33,8 +33,10 @@
 
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/__pic/article__pic.css);
+@import url(../blocks/article/__body/article__body.css);
 @import url(../blocks/article/__txt/article__txt.css);
 @import url(../blocks/article/__txt/_annotation/article__txt_annotation.css);
+@import url(../blocks/article/__button/article__button.css);
 
 /* header */
 
@@ -96,6 +98,9 @@
 
 @import url(../blocks/making/making.css);
 @import url(../blocks/making/__subtitle/making__subtitle.css);
+@import url(../blocks/making/__numbers/making__numbers.css);
+@import url(../blocks/making/__numbers-header/making__numbers-header.css);
+@import url(../blocks/making/__numbers-txt/making__numbers-txt.css);
 
 /* footer */
 

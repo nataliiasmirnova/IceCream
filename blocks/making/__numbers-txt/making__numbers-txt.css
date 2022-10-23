@@ -1,0 +1,8 @@
+.making__numbers-txt {
+    font-weight: 700;
+    line-height: 1.75em;
+    letter-spacing: 0.02em;
+    color: var(--color-text-paragraph-accent);
+    margin: 0;
+    padding: 0;
+}
