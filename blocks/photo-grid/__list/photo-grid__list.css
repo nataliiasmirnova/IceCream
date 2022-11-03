@@ -1,0 +1,10 @@
+.photo-grid__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(39px, 1fr));
+    grid-template-areas: ". . img3 img3 . . ." ". . img3 img3 . img5 ." ". img2 img3 img3 img4 img5 ." "img1 img2 img3 img3 img4 img5 img6" "img1 img2 img3 img3 img4 img10 img6" "img1 img7 img3 img3 img9 img10 img6" ". img7 img8 . img9 img10 ." ". img7 img8 . img9 . ." ". . img8 . . . .";
+    gap: 6px;
+    object-fit: cover;
+    font-size: 0;
+}

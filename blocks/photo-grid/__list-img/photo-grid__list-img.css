@@ -1,0 +1,49 @@
+.photo-grid__list-img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-grid__list-item-1 {
+    grid-area: img1;
+}
+
+.photo-grid__list-item-2 {
+    grid-area: img2;
+}
+
+.photo-grid__list-item-3 {
+    grid-area: img3;
+}
+
+.photo-grid__list-item-4 {
+    grid-area: img4;
+}
+
+.photo-grid__list-item-5 {
+    grid-area: img5;
+}
+
+.photo-grid__list-item-6 {
+    grid-area: img6;
+}
+
+.photo-grid__list-item-7 {
+    grid-area: img7;
+}
+
+.photo-grid__list-item-8 {
+    grid-area: img8;
+}
+
+.photo-grid__list-item-9 {
+    grid-area: img9;
+}
+
+.photo-grid__list-item-10 {
+    grid-area: img10;
+}
