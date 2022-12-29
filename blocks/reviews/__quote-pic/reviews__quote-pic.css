@@ -1,0 +1,10 @@
+.reviews__quote-pic {
+    background-image: url("../reviews-quote.svg");
+    width: 54px;
+    height: 40px;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    z-index: 1;
+    /* border: green 1px solid; */
+}

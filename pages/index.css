@@ -118,6 +118,17 @@
 @import url(../blocks/photo-grid/__list-item-10/photo-grid__list-item-10.css);
 @import url(../blocks/photo-grid/__list-img/photo-grid__list-img.css);
 
+/* reviews */
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__carousel/reviews__carousel.css);
+@import url(../blocks/reviews/__card/reviews__card.css);
+@import url(../blocks/reviews/__client-pic/reviews__client-pic.css);
+@import url(../blocks/reviews/__quote/reviews__quote.css);
+@import url(../blocks/reviews/__quote-pic/reviews__quote-pic.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+
 /* footer */
 
 @import url(../blocks/footer/footer.css);

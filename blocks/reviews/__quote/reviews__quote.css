@@ -1,0 +1,9 @@
+.reviews__quote {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 926px;
+    background-color: var(--color-bg-grey);
+    /* background-image: repeating-linear-gradient(transparent 0px, transparent 53px, #e1e1e1 0, #e1e1e1 54px);*/
+    /* background-image: repeating-linear-gradient(transparent, transparent 30px, #e1e1e1 0, #e1e1e1 31px); */
+}

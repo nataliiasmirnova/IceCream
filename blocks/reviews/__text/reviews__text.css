@@ -1,0 +1,10 @@
+.reviews__text {
+    font-weight: 500;
+    line-height: 1.87em;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--color-text-paragraph-accent);
+    height: 62px;
+    background-image: repeating-linear-gradient(transparent, transparent 30px, #e1e1e1 0, #e1e1e1 31px);
+    margin: 32px 54px 32px 50px;
+}

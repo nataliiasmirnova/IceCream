@@ -1,0 +1,6 @@
+.reviews__name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.86em;
+    color: var(--color-text-paragraph-accent);
+}
