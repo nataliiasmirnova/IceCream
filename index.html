@@ -27,15 +27,15 @@
                 <a class="link header__logo" href="" target="_blank" rel="noopener noreferrer"></a>
                 <ul class="header__links">
                     <li class="header__link">
-                        <a class="link header__link header__link_active" href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                        <a class="link header__link header__link_active" href="#" target="_parent" rel="noopener noreferrer">Home</a></li>
                     <li class="header__link">
-                        <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">About us</a></li>
+                        <a class="link header__link" href="#" target="_parent" rel="noopener noreferrer">About us</a></li>
                     <li class="header__link">
-                        <a class="link header__link" href="#making" target="_blank" rel="noopener noreferrer">How it’s made?</a></li>
+                        <a class="link header__link" href="#making" target="_parent" rel="noopener noreferrer">How it’s made?</a></li>
                     <li class="header__link">
-                        <a class="link header__link" href="#products" target="_blank" rel="noopener noreferrer">Our products</a></li>
+                        <a class="link header__link" href="#products" target="_parent" rel="noopener noreferrer">Our products</a></li>
                     <li class="header__link">
-                        <a class="link header__link" href="#locations" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                        <a class="link header__link" href="#locations" target="_parent" rel="noopener noreferrer">Contact</a></li>
                 </ul>
             </nav>
             <button class="button header__button" type="button">Buy now</button>
@@ -48,9 +48,10 @@
                     <!-- высота  высота заголовка в макете 137, в верстке - 144; font-size title-white = 37px-->
                     <h1 class="section-title hero__title_white">ice cream made with<span class="section-title hero__title"> passion</span></h1>
                     <div class="hero__buttons">
-                        <a class="link hero__button hero__button_active" href="" target="_blank" rel="noopener noreferrer">Products</a>
-                        <a class="link hero__button" href="" target="_blank" rel="noopener noreferrer">How it’s made?</a>
+                        <a class="link hero__button hero__button_active" href="#products" target="_parent" rel="noopener noreferrer">Products</a>
+                        <a class="link hero__button" href="#making" target="_parent" rel="noopener noreferrer">How it’s made?</a>
                     </div>
+
                     <div class="hero__milk">
                         <img class="hero__milk-pic" src="./images/hero/hero-milk.png" alt="a splashing jug of milk on the background of the inscription 'eco' 'bio'" width="188">
                         <div class="hero__milk-description">
@@ -59,8 +60,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero__icecream-circle"></div>
-                <img class="hero__icecream-pic" src="./images/hero/hero-ice-cream.png" alt="large cone with six colored ice cream scoops" width="236">
+                <div class="hero__icecream">
+                    <div class="hero__icecream-circle"></div>
+                    <img class="hero__icecream-pic" src="./images/hero/hero-ice-cream.png" alt="large cone with six colored ice cream scoops" width="236">
+                </div>
                 <div class="hero__column-left">
                     <ul class="counter">
                         <li class="counter__item">16
@@ -90,7 +93,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
                             <!-- нужна ли кнопка? или использовать div (с учетом того, что ссылка на весь блок сразу) -->
-                            <a class="link button link__arrow" href="" target="_blank" rel="noopener noreferrer"></a>
+                            <a class="link button link__arrow" href="" target="_parent" rel="noopener noreferrer"></a>
                         </div>
 
                     </li>
@@ -102,7 +105,7 @@
                             <p class="products__item-text" lang="zxx">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
-                            <a class="link button link__arrow" href=""></a>
+                            <a class="link button link__arrow" href="" target="_parent" rel="noopener noreferrer"></a>
                         </div>
                     </li>
 
@@ -113,7 +116,7 @@
                             <p class="products__item-text" lang="zxx">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             </p>
-                            <a class="link button link__arrow" href="" target="_blank" rel="noopener noreferrer"></a>
+                            <a class="link button link__arrow" href="" target="_parent" rel="noopener noreferrer"></a>
                         </div>
                     </li>
                 </ul>
@@ -270,13 +273,13 @@
                     </li>
                 </ul>
                 <!--
-                Locations__buttons-->
+                Locations__buttons
                 <div class="locations__buttons">
 
                     <button class="button locations__button" type="button">Our Locations</button>
                     <button class="button button_state_active locations__button" type="button">Franchise</button>
 
-                    <!-- <a class="link locations__button locations__button_active" href="" target="_blank" rel="noopener noreferrer">Our Locations</a>
+                     <a class="link locations__button locations__button_active" href="" target="_blank" rel="noopener noreferrer">Our Locations</a>
                     <a class="link locations__button" href="" target="_blank" rel="noopener noreferrer">Franchise</a>
 
                 </div>
@@ -286,7 +289,7 @@
         <!-- <footer class="footer">
             <p class="footer__copyright">&copy; 2019 - IceCream. All Rights Reserved.</p>
         </footer>-->
-        </div>
+    </div>
 </body>
 
 </html>

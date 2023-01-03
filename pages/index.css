@@ -70,6 +70,7 @@
 
 /* hero__icecream */
 
+@import url(../blocks/hero/__icecream/hero__icecream.css);
 @import url(../blocks/hero/__icecream-circle/hero__icecream-circle.css);
 @import url(../blocks/hero/__icecream-pic/hero__icecream-pic.css);
 

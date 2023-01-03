@@ -1,5 +1,6 @@
 .hero__icecream {
-    /* border: 1px solid red; */
+    position: absolute;
+    left: 37%;
+    top: -35px;
     width: 538px;
-    position: relative;
 }
