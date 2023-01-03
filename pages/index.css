@@ -83,9 +83,6 @@
 @import url(../blocks/products/products.css);
 @import url(../blocks/products/__title/products__title.css);
 @import url(../blocks/products/__subtitle/products__subtitle.css);
-
-/* products__subtitle –– без содержимого */
-
 @import url(../blocks/products/__list/products__list.css);
 @import url(../blocks/products/__list-item/products__list-item.css);
 @import url(../blocks/products/__item-description/products__item-description.css);
@@ -128,6 +125,25 @@
 @import url(../blocks/reviews/__quote-pic/reviews__quote-pic.css);
 @import url(../blocks/reviews/__text/reviews__text.css);
 @import url(../blocks/reviews/__name/reviews__name.css);
+
+/* locations */
+
+@import url(../blocks/locations/locations.css);
+@import url(../blocks/locations/__title/locations__title.css);
+@import url(../blocks/locations/__list/locations__list.css);
+@import url(../blocks/locations/__item/locations__item.css);
+@import url(../blocks/locations/__item-type/locations__item-type.css);
+@import url(../blocks/locations/__item-type/_brown/locations__item-type_brown.css);
+@import url(../blocks/locations/__item-type/_green/locations__item-type_green.css);
+@import url(../blocks/locations/__item-city/locations__item-city.css);
+@import url(../blocks/locations/__item-city-txt/locations__item-city-txt.css);
+@import url(../blocks/locations/__item-opening-hours/locations__item-opening-hours.css);
+@import url(../blocks/locations/__item-opening-hours/_days/locations__item-opening-hours_days.css);
+@import url(../blocks/locations/__item-opening-hours/_hours/locations__item-opening-hours_hours.css);
+@import url(../blocks/locations/__item-contacts/locations__item-contacts.css);
+@import url(../blocks/locations/__item-links/locations__item-links.css);
+@import url(../blocks/locations/__buttons/locations__buttons.css);
+@import url(../blocks/locations/__button/locations__button.css);
 
 /* footer */
 

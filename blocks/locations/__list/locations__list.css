@@ -1,8 +1,6 @@
-.making__numbers {
-    list-style: none;
+.locations__list {
     padding: 0;
     margin: 0;
-    margin-left: 115px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 330px);
     gap: 30px;

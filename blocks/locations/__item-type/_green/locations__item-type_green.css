@@ -1,0 +1,4 @@
+.locations__item-type_green {
+    background-color: var(--color-add-green);
+    max-width: 138px;
+}

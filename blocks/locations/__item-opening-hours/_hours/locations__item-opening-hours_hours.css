@@ -1,0 +1,19 @@
+.locations__item-opening-hours_hours {
+    font-weight: 400;
+    line-height: 1.86em;
+    color: var(--color-heading-secondary);
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.locations__item-opening-hours_hours:after {
+    content: "";
+    margin: 0;
+    border: .5px solid #E1E1E1;
+    height: 0px;
+    width: 232px;
+    position: absolute;
+    top: 428px;
+    left: 43px;
+}
