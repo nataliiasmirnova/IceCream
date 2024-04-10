@@ -1,6 +1,6 @@
 # Study project: Icecream
 ### Description
- [Project](https://nataliiasmirnova.github.io/IceCream/) is a landing page for a company producing natural ice cream. The page is fully adaptive. It was used such technologies as flex and grid. BEM methodology also was used in the work.
+ [Project](https://nataliiasmirnova.github.io/IceCream/) is a landing page for a company producing natural ice cream. It was used such technologies as flex and grid. BEM methodology also was used in the work.
 The project consists of the following blocks:
 * header
 * hero
@@ -14,7 +14,6 @@ The project consists of the following blocks:
 ## Technologies ##
 * HTML5, CSS3
 * BEM
-* responsive design
 
 ## Requirements ##
-The project is available for viewing in any browser, it has web and mobile version (screen width  ≥ 320px).
+The project is available for viewing in any browser, at the moment it has only desktop version.
